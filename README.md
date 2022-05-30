@@ -13,5 +13,7 @@ Work through the slideshow and/or watch the video on YouTube...
 You can see the process demonstrated here:
  - https://youtu.be/CxquKl4hISw
 
+## Wiring the Uno to the Nano:
+![](Uno2NanoWiring.png)
 ## Connecting the Uno to the Nano:
 ![](Uno2NanoConnections.png)
