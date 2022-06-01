@@ -1,6 +1,12 @@
 # NanoBLUpdate
 Updating the Bootloader in an Arduino Nano.
 
+## Why
+1. The “old” bootloader has a bug that prevents the Watchdog Timer from working properly.
+2. The “old” bootloader is bigger than the new one, so after updating, more flash memory (1.5KB) can be available for sketches... if you also fix the high fuses.
+3. The new bootloader allows faster uploads as it uses 115200 baud – the “old” bootloader uses 57600 baud.
+
+## How
 Work through the slideshow and/or watch the video on YouTube...
 
 1. Demonstration test sketch showing the "old" bootloader causing a watchdog timer timeout that crashes the Nano.
